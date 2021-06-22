@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MasketEditText">
+        <attr name="editTextFormat" format="enum">
+            <enum name="Money" value="0" />
+            <enum name="Phone" value="1" />
+            <enum name="Mail" value="2" />
+            <enum name="NoEditableText" value="3"/>
+            <enum name="CreditCard" value="4" />
+        </attr>
+
+        <attr name="isDecimal" format="enum">
+            <enum name="False" value="0" />
+            <enum name="True" value="1" />
+            <enum name="Hidden" value="2" />
+        </attr>
+
+        <attr name="parentesis" format="enum">
+            <enum name="False" value="0" />
+            <enum name="True" value="1" />
+            <enum name="TrueWhitOutDash" value="2" />
+            <enum name="FalseSpaces" value="3" />
+        </attr>
+
+        <attr name="materialSelector" format="enum">
+            <enum name="False" value="0" />
+            <enum name="True" value="1" />
+        </attr>
+    </declare-styleable>
+</resources>

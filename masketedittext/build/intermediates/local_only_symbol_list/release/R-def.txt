@@ -1,0 +1,25 @@
+R_DEF: Internal format may change without notice
+local
+attr? editTextFormat
+attr? isDecimal
+attr? materialSelector
+attr? parentesis
+drawable anim_arrow
+drawable anim_arrow_circle
+drawable ic_american_express
+drawable ic_arrow_drop_down_brown_24dp
+drawable ic_arrow_drop_down_white_24dp
+drawable ic_mastercard
+drawable ic_visa
+id CreditCard
+id False
+id FalseSpaces
+id Hidden
+id Mail
+id Money
+id NoEditableText
+id Phone
+id True
+id TrueWhitOutDash
+string app_name
+styleable MasketEditText editTextFormat isDecimal parentesis materialSelector

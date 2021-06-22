@@ -1,0 +1,12 @@
+com/fabrica/innovacion/components/mail/MailEditTextPresenter.java
+ com.fabrica.innovacion.components.mail.MailEditTextPresenter
+com/fabrica/innovacion/components/phone/PhoneEdiTextPresenter.java
+ com.fabrica.innovacion.components.phone.PhoneEdiTextPresenter
+com/fabrica/innovacion/components/money/MoneyEditTextPresenter.java
+ com.fabrica.innovacion.components.money.MoneyEditTextPresenter
+com/fabrica/innovacion/components/BuildConfig.java
+ com.fabrica.innovacion.components.BuildConfig
+com/fabrica/innovacion/components/creditcard/CreditCardEditTextPresenter.java
+ com.fabrica.innovacion.components.creditcard.CreditCardEditTextPresenter
+com/fabrica/innovacion/components/utils/Utils.java
+ com.fabrica.innovacion.components.utils.Utils

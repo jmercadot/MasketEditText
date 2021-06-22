@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/Android/Documents/components/masketedittext/build/intermediates/res/merged/release/drawable-ldrtl-mdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png",
+        "source": "/Users/Android/.gradle/caches/transforms-2/files-2.1/3adef093efb3af4e117e7e64cdf1cfff/appcompat-1.0.2/res/drawable-ldrtl-mdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "/Users/Android/Documents/components/masketedittext/build/intermediates/res/merged/release/drawable-ldrtl-mdpi-v17/abc_ic_menu_cut_mtrl_alpha.png",
+        "source": "/Users/Android/.gradle/caches/transforms-2/files-2.1/3adef093efb3af4e117e7e64cdf1cfff/appcompat-1.0.2/res/drawable-ldrtl-mdpi-v17/abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Users/Android/Documents/components/masketedittext/build/intermediates/res/merged/release/drawable-ldrtl-mdpi-v17/abc_spinner_mtrl_am_alpha.9.png",
+        "source": "/Users/Android/.gradle/caches/transforms-2/files-2.1/3adef093efb3af4e117e7e64cdf1cfff/appcompat-1.0.2/res/drawable-ldrtl-mdpi-v17/abc_spinner_mtrl_am_alpha.9.png"
+    }
+]
