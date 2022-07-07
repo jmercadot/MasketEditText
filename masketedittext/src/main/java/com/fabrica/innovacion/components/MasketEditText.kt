@@ -35,7 +35,7 @@ class MasketEditText : AppCompatEditText, TextWatcher, MoneyEditTextContract.Vie
     private lateinit var mailEditTextPresenter: MailEditTextContract.Presenter
     private lateinit var creditCardEditTextPresenter: CreditCardEditTextPresenter
 
-    private var textFormat: Int? = 0
+    private var textFormat: Int? = 5
     private var isDecimal: Int? = 0
     private var isParenthesis: Int? = 0
     private var isMaterialSelector: Int? = 0
@@ -50,6 +50,7 @@ class MasketEditText : AppCompatEditText, TextWatcher, MoneyEditTextContract.Vie
         const val MAIL: Int = 2
         const val NO_EDITABLE_TEXT = 3
         const val CREDITCARD: Int = 4
+        const val REGULAR: Int = 5
 
         const val False = 0
         const val True = 1
@@ -125,6 +126,9 @@ class MasketEditText : AppCompatEditText, TextWatcher, MoneyEditTextContract.Vie
                     0
                 )
             }
+            REGULAR -> {
+                this.inputType = InputType.TYPE_TEXT_FLAG_CAP_SENTENCES
+            }
         }
     }
 
@@ -134,6 +138,7 @@ class MasketEditText : AppCompatEditText, TextWatcher, MoneyEditTextContract.Vie
             PHONE -> phoneEdiTextPresenter.formatText(s, isParenthesis!!)
             MAIL -> mailEditTextPresenter.format(s)
             CREDITCARD -> creditCardEditTextPresenter.formatText(s)
+            REGULAR -> {}
         }
     }
 
